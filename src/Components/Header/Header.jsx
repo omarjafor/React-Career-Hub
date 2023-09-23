@@ -26,7 +26,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <button className="px-7 py-4 rounded-lg text-white font-bold text-xl bg-[#9873FF]"><a>Star Applying</a></button> 
+                <button className="px-7 py-4 rounded-lg text-white font-bold text-xl bg-[#9873FF]"><a>Start Applying</a></button> 
             </div>
         </div>
     );
