@@ -11,7 +11,7 @@ const JobDetails = () => {
     
     const handleApplyJob = () =>{
         saveJobApplication(idInt);
-        toast('You Have Applied Successfully');
+        toast.success('You Have Applied Successfully');
     }
     return (
         <div>
@@ -26,7 +26,7 @@ const JobDetails = () => {
                     <button onClick={handleApplyJob} className="btn btn-primary w-full">Apply Now</button>
                 </div>
             </div>
-            <ToastContainer />
+            <ToastContainer theme="dark" />
         </div>
     );
 };
